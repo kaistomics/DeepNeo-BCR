@@ -18,16 +18,16 @@ Other requirements are listed on requirements.txt
 The input file of DeepNeo-BCR is a single column file with query peptide list.
 An example data is provided within this repo.
 
-'''
+```
 python predict_63.py GPU_NUM MODE INPUTFILE
-'''
+```
 is the basic command line for DeepNeo-BCR.
 
 Users can test the code using
 
-'''
+```
 python predict_63.py 0 all Example/example.txt
-'''
+```
 
 Although GPU is not necessary to run the code, it will be helpful in prompt prediction.
 
