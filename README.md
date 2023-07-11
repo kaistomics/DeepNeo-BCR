@@ -34,6 +34,10 @@ Although GPU is not necessary to run the code, it will be helpful in prompt pred
 There are four modes available : all, human, human_reduced, mouse
 
 'all' includes all mouse and human alleles.
+
 'human' includes all human alleles (N=48)
+
 'human_reduced' includes representative human alleles (N=25) and can be used if computational power is limited.
+
 'mouse' includes mouse alleles.
+
