@@ -1,0 +1,15 @@
+IGHV10-1_mouse_rrrs.best.h5
+IGHV10S3_mouse_rrrs.best.h5
+IGHV11-1_mouse_rrrs.best.h5
+IGHV14-1_mouse_rrrs.best.h5
+IGHV1-4_mouse_rrrs.best.h5
+IGHV15-2_mouse_rrrs.best.h5
+IGHV1S5_mouse_rrrs.best.h5
+IGHV3S1_mouse_rrrs.best.h5
+IGHV4-1_mouse_rrrs.best.h5
+IGHV5-2_mouse_rrrs.best.h5
+IGHV5S4_mouse_rrrs.best.h5
+IGHV6-3_mouse_rrrs.best.h5
+IGHV7-1_mouse_rrrs.best.h5
+IGHV8-6_mouse_rrrs.best.h5
+IGHV9-1_mouse_rrrs.best.h5

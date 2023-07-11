@@ -1,0 +1,12 @@
+IGHV1-2_rrrs.best.h5
+IGHV1-45_rrrs.best.h5
+IGHV1-58_rrrs.best.h5
+IGHV1-69_rrrs.best.h5
+IGHV1-69-2_rrrs.best.h5
+IGHV2-5_rrrs.best.h5
+IGHV3-15_rrrs.best.h5
+IGHV3-9_rrrs.best.h5
+IGHV4-30-2_rrrs.best.h5
+IGHV5-10-1_rrrs.best.h5
+IGHV6-1_rrrs.best.h5
+IGHV7-4-1_rrrs.best.h5
