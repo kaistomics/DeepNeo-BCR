@@ -41,3 +41,5 @@ There are four modes available : all, human, human_reduced, mouse
 
 'mouse' includes mouse alleles.
 
+We suggest using >0.3 to interpret B cell epitopes.
+
