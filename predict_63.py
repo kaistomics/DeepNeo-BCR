@@ -14,12 +14,12 @@ mode=sys.argv[2]
 
 #inputfile = sys.argv[1]
 
-calpha = pd.read_csv('/home/omics/DATA0/02_jeongyeon/Projects/DeepNeoBCR/Data/Calpha.txt', sep="\t", header=0, index_col=0)
+calpha = pd.read_csv('Data/Calpha.txt', sep="\t", header=0, index_col=0)
 weight=[]
 t=[]
-hla = pd.read_csv('/home/omics/DATA0/02_jeongyeon/Projects/DeepNeoBCR/Data/BCR_IMGT_multiple_images.txt', sep="\t", header=None, index_col=0)
+hla = pd.read_csv('Data/BCR_IMGT_multiple_images.txt', sep="\t", header=None, index_col=0)
 weight={}
-for line in open('/home/omics/DATA0/02_jeongyeon/Projects/DeepNeoBCR/Data/Cell_SHM_weight_AA.txt'):
+for line in open('Data/Cell_SHM_weight_AA.txt'):
     temp=line.strip().split('\t')
     weight[temp[0]]=temp[1:]
 
@@ -28,7 +28,7 @@ for i in range(calpha.shape[0]):
     for j in range(calpha.shape[1]):
         dic_calpha[(calpha.columns[i], calpha.index[j])] = calpha.iloc[i,j]
 
-with open('/home/omics/DATA0/02_jeongyeon/Projects/DeepNeoBCR/Data/Linear_model_'+mode+'.pkl','rb') as file2:
+with open('Data/Linear_model_'+mode+'.pkl','rb') as file2:
     linear_model = pickle.load(file2)
 
 
@@ -51,13 +51,13 @@ def get_array(pair):
         pass
 
 
-modellist=[x.strip().split('\t')[0] for x in open('/home/omics/DATA0/02_jeongyeon/Projects/DeepNeoBCR/Data/modellist_'+mode+'.txt')]
+modellist=[x.strip().split('\t')[0] for x in open('Data/modellist_'+mode+'.txt')]
 def load_all_models(n_models):
     all_models = list()
     stackX=None
     stackXMT=None
     for i in range(len(modellist)):
-        model = load_model('/home/omics/DATA0/02_jeongyeon/Projects/DeepNeoBCR/Data/models/'+modellist[i])
+        model = load_model('Data/models/'+modellist[i])
         tcr1 = pd.read_csv(sys.argv[3], sep="\t", header=None)
         tcr1['allele']=modellist[i].split('_rr')[0]
         arr = np.apply_along_axis(get_array, 1, tcr1)
