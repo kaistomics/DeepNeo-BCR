@@ -15,6 +15,7 @@ Please download this github repo.
 The code can be run on Python>3.6 and Keras with tensorflow backend.
 Necessary packages are listed below.
 Typical installation time on a Linux machine is ~1m if requirements are met, and ~15m if starting from a new conda environment.
+If you wish to install on conda environment, please refer to conda_env.yml for required packages
 
 
 The input file of DeepNeo-BCR is a single column file with query peptide list.
@@ -49,8 +50,15 @@ We suggest using >0.3 to interpret B cell epitopes.
 
 ## Version
 This software was tested on Ubuntu 20.04 machine with following software versions:
+
+
 Python=3.7
+
 Tensorflow=2.11
+
 Pandas=1.3.5
+
 scikit-learn=1.0.2
+
 scipy=1.7.3
+
