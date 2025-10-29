@@ -1,7 +1,7 @@
 # DeepNeo-BCR
 Predict linear B cell epitopes of fixed length
 
-## DeepNeo-BCR is a tool for predicting the linear B cell epitope of fixed length (12,15,16mer)
+## DeepNeo-BCR is a tool for predicting linear B cell epitopes of fixed length (12,15,16mer)
 
 Despite recent advances in bioinformatics, prediction of B cell eptiopes have been challenging. Here, we developed a convolutional neural network based models to accurately predict B cell binding epitopes agianst general B cell population. 63 independent models are created for representative IGHV alleles of human and mouse, which are then combined into ensemble model using linear regression.
 
